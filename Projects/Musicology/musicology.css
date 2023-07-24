@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container,.section,.section1{
+    width: 90%;
+    margin: 0 auto;
+}
+.background{
+    background: url(../Musicology/Images/background1.svg);
+    background-repeat: no-repeat;
+}    
+.background1{
+    background: url(../Musicology/Images/navbackground.svg);
+    background-repeat: no-repeat;
+}    
+.background2,section,.section4{
+    background-color: rgb(255, 99, 12);
+}
+.background3,.section2,.background5{
+    background-color: rgb(44, 44, 44);
+}
+.background4{
+    /* background-color: rgb(119, 51, 2); */
+    /* opacity: 0.5; */
+    padding-top: 1px;
+    padding-bottom: 310px;
+
+}
+.content6,.title6{
+
+}
+.nav,.second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 60px;
+    margin-top: 14px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.searchlogo{
+    color: white;
+    margin-top: 14px;
+    font-size: 20px;
+}
+.logo{
+    margin-top: -10px;
+}
+.header{
+    margin-top: 300px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 92px;
+}
+.title{
+    font-size: 120px;
+    font-family:sans-serif;
+}
+.content{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.box{
+    padding: 15px ;
+    background-color: rgb(255, 99, 12);
+    width: 22%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.title1,.title2,.title3,.title4,.title5,.title6,.title7{
+    color: white;
+    font-family: sans-serif;
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.title3,.title4{
+    font-size: 60px;
+    padding-top: 150px;
+    padding-right: 94px;
+}
+.title4,.content4{
+    padding-left:72px ;
+}
+.content1,.content2,.content3,.content4,.content5,.content6,.content7{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.cardes,.cardes1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 80px;
+
+}
+.card,.card1{
+    background-color:rgb(44, 44, 44) ;
+    color: white;
+    width: 29.5%;
+    text-align: center;
+    font-size: 37px;
+}
+.img{
+    width: 100%;
+}
+p{
+    font-size: 22px;
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+.box1{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: 10px 25px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.card1{
+    background-color: rgb(255, 99, 12);
+    padding-top: 50px;
+    border-radius: 6px;
+}
+.img1{
+    margin-bottom: 30px;
+}
+
+.img2,.img3{
+    height: 686px;
+}
+
+.box2,.box3{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    margin-right: 220px;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+.box3{
+    margin-left: 72px;
+}
+.content3,.content4,.title4{
+    text-align: left;
+}
+section,.section5,.logo1{
+    display: flex;
+    justify-content: space-between;
+}
+.co-50,.logo1{
+    width: 50%;
+}
+.img3,.img2{
+    width: 703px;
+}
+.statics{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 55px;
+    padding-bottom: 80px;
+}
+.first,.second,.section5{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.section3{
+    background: url(Images/section3.png)no-repeat center center/cover;
+}
+.content6,.text6{
+    margin-top: 325px;
+}
+.content6{
+    font-size: 50px;
+}
+.text6{
+    font-size: 58px;
+    font-weight: bold;
+}
+.section4{
+    padding-bottom: 120px;
+}
+.input{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+input{
+    color: white;
+    padding: 18px;
+    width: 540px;
+    border: none;
+    font-size: 20px;
+}
+.box5{
+    color: white;
+    background-color: black;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    width: 190px;
+    text-align: center;
+}
+.title7{
+    padding-top: 120px;
+}
+.text,.text1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    text-align: left;
+}
+.text1{
+    font-size: 25px;
+}
+.text,.text1{
+    padding: 10px;
+}
+.i{
+    font-size: 40px;
+    padding-top: 70px;
+}
+.section5{
+    padding-bottom: 80px;
+}
+
+
+
