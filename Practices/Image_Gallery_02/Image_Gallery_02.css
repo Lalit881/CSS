@@ -14,6 +14,15 @@ img{
     object-fit: cover;
     height: 100%;
     width: 100%;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+img:hover{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(0);
 }
 .box1{
     grid-column: 1/4;
