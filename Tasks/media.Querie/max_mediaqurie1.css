@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+
+    h1::after{
+    content: " Lalit Kumar";
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) { 
+    body{
+    background-color: rgb(127, 236, 255);
+}
+
+    h1::after{
+    content: " 1400px";
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    body{
+    background-color: rgb(255, 127, 165);
+}
+
+    h1::after{
+    content: " 1200px";
+}
+}
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    body{
+    background-color: rgb(178, 127, 255);
+}
+
+    h1::after{
+    content: " 992px";
+}
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    body{
+    background-color: rgb(255, 148, 127);
+}
+
+    h1::after{
+    content: " 768px";
+}
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    body{
+    background-color: rgb(232, 255, 127);
+}
+
+    h1::after{
+    content: " 576px";
+}
+}
+
+}

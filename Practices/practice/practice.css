@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background: url(Image/Background.png)no-repeat center center/cover;
+}
+h2{
+    padding-bottom: 30px;
+}
+p{
+    padding-bottom: 80px;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 80px;
+    color: white;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
