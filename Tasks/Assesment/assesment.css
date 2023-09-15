@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding-right: 50px;
+    padding-top: 15px;
+    box-shadow: 0px 15px 10px -15px #111;
+    position: relative;
+    
+}
+.logo > img{
+    width: 100%;
+    height: 50px;
+}
+i{
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: 500;
+    margin-right: 50px;
+    display: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 90%;
+    margin: 50px auto;
+
+}
+.value{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    width: 26%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.card > img{
+    width: 100%;
+    height: 100%;
+}
+.value >p+p{
+    color: rgb(255, 144, 90);
+    text-decoration: none;
+}
+.value >p{
+    color: rgb(185, 186, 192);
+    text-decoration: line-through;
+}
+input{
+    position: absolute;
+    right: 3.6%;
+    top: 41%;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+}
+.menu{
+    display: none;
+    
+}
+input:checked + .menu{
+    display: block;
+    display: flex;
+}
+.rating{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    font-weight: 600;
+    gap: 2px;
+    top: 90%;
+    left: 3%;
+    padding: 5px;
+    border-radius: 2px;
+}
+.rating>i{
+    font-size: 14px;
+    margin-top: 2px;
+}
+.rs2,.rs1{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+.wish{
+    border: 2px solid #dadada;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wish:hover{
+    border: 2px solid #9f9f9f;
+}
+.wish>i, .wish>h3{
+    margin-top: 0px;
+    padding-block: 6px;
+}
+.wish>h3{
+    margin-top: 5px;
+}
+.rs2>p{
+    color: rgb(83, 86, 101);
+    margin-top: 18px;
+}
+.similar{
+    border-radius: 50%;
+    padding: 4px 10px;
+    background-color: white;
+    position: absolute;
+    top: -40%;
+    right: 4%;
+    z-index: 2;
+}
+.similar>i ,.similar1>i{
+    font-size: 18px;
+    margin-top: 0px;
+    padding-block: 6px;
+}
+.rs2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    padding: 14px 17px;
+    top: 90%;
+    z-index: 1;
+}
+.card:hover .rs2 {
+    display: block;
+    box-shadow: 0 0 4px #ccc;
+}
+.similar1{
+    background-color: white;
+    width: 60%;
+    border-radius: 50px;
+    color: #ff517b;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    position: absolute;
+    z-index: 3;
+    top: -40%;
+    padding-left: 20px;
+    right: 4%;
+    display: none;
+
+}
+.similar1>h3 ,.similar1>i{
+    padding-block: 9px;
+
+}
+.view:hover .similar1{
+    display: block;
+    display: flex;
+}
+h2{
+    margin-top: 10px;
+}
+.rs1>p{
+    color: rgb(107, 109, 120);
+    margin-top: 6px;
+}
+.value{
+    margin-top: 26px;
+}
+.rs1>.value{
+    margin-top: 16px;
+}

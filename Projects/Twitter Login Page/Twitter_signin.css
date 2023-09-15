@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(153, 153, 153);
+}
+.container{
+    color: white;
+    width: 42.5%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 35px;
+    border-radius: 15px;
+    height: 610px;
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+}
+.logo > img{
+    width: 7%;
+    margin-top: 8px;
+}
+.content{
+    width: 49.5%;
+    text-align: left;
+    margin: 0 auto;
+}
+h2{
+    font-size: 31px;
+    color: black;
+    font-family: 'Segoe UI';
+    margin-top: 24px;
+}
+.logo1,.logo2,.pass{
+    color: black;
+    font-size: 15px;
+    border: 1px solid rgb(207, 217, 222);
+    padding: 10px ;
+    width: 100%;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+
+}
+.logo1:hover{
+    border: 1px solid rgb(219, 232, 255) ;
+    background-color: rgb(245, 248, 255);
+}
+.logo2:hover, .pass:hover{
+    background-color: rgb(230, 230, 230);
+}
+.logo2{
+    font-weight: bold;
+}
+.logo1 > img, .logo2 > img{
+    width: 6%;
+    
+}
+.or{
+display: flex;
+color: black;
+font-family: 'Segoe UI';
+font-size: 17px;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+.line{
+    height: 1px;
+    background-color: rgb(207, 217, 222);
+    width: 44%;
+    margin-top: 12px;
+}
+input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 5px;
+    margin-bottom: 26px;
+    font-size: 17px;
+}
+input::placeholder{
+    color:rgb(83, 100, 113);
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    padding-left: 8px;
+}
+.acc{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    padding: 8px;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.acc:hover{
+    background-color: rgb(39, 44, 48);
+}
+.pass{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px;
+}
+.p2{
+    font-size: 15px;
+    margin-top: 48px;
+    font-family: 'Segoe UI';
+    color: rgb(83, 100, 113);
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+a:hover{
+    text-decoration: underline;
+}
+.p1{
+    font-family: 'Segoe UI';
+}
+.p{
+    font-family: sans-serif;
+    font-weight: 500;
+}

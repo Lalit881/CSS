@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Click</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border: 1px solid black;
+        position: relative;
+    }
+    .shape{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0;
+    }
+    p{
+        display: none;
+    }
+    input:checked + p{
+        display: block;
+        color: aliceblue;
+        background-color: crimson;
+    }
+
+  </style>
+  <body>
+    <div class="box">
+        <i class="fa-solid fa-bars" ></i>
+        <input type="checkbox" name="" class="shape" id="" />
+        <p>Hello Kunal</p>
+    </div>
+  </body>
+</html>
