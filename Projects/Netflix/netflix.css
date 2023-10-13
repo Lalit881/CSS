@@ -19,17 +19,19 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     padding-top: 8px;
     position: relative;
     z-index: 1;
 }
+
 .logo > img{
-    width: 20%;
+    width: 20%
 }
 .signin{
     display: flex;
+    justify-content: space-between;
     gap: 22px;
-    width: 40%;
 }
 .signin > select,.signin > button{
     height: 34px;
@@ -48,6 +50,7 @@
     color: white;
     background-color: red;
     border: none;
+    width: 80px;
 }
 .content{
     text-align: center;
@@ -133,9 +136,6 @@ hr{
     padding-top: 80px;
 
 }
-.content1{
-    width: 55%;
-}
 h2{
     font-size: 48px;
     font-weight: 900;
@@ -143,33 +143,36 @@ h2{
 .content1 > p , .content2 > P, .content3 > p, .content4 > P{
     padding-top: 14px;
 }
-.img > img{
-    width: 88%;
-    margin-left: 60px;
-    padding-left: 20px;
-    margin-top: 70px;
+.vid1{
+    position: relative;
+}
+.vid1 > img{
     position: relative;
     z-index: 1;
 }
-.img > video{
+.vid1 > video{
     position: absolute;
-    top: 840px;
-    right: 225px;
-    width: 26.54%;
+    right: 90px;
+    width: 73%;
+    bottom: 120px;
 }
 .section > hr{
     margin-top: 58px;
 }
 .content2{
-    width: 78%;
-    padding-left: 30px;
+    width: 50%;
 }
-.img1 > img{
+.img1{
+    width: 50%;
+}
+.vid2>img{
     width: 100%;
-    margin-top: 65px;
-    margin-left: 25px;
     position: relative;
 }
+.vid2{
+    position: relative;
+}
+
 box{
     display: flex;
     justify-content: space-around;
@@ -177,15 +180,13 @@ box{
     font-family: 'Segoe UI';
     border-radius: 12px;
     border: 2px solid rgb(90, 90, 90);
-    width: 70%;
     padding-block: 10px;
-    width: 70%;
-    position: absolute;
-    width: 20%;
+    width: 300px;
     height: 100px;
-    top: 1518px;
-    left: 260px;
     background-color: black;
+    position: absolute;
+    left: 130px;
+    bottom: 35px;
     
 }
 .img4{
@@ -207,19 +208,21 @@ box{
     height: 70%;
     margin-top: 15px;
 }
-
-.img2 > img{
-    width: 100%;
-    margin-top: 70px;
+.img2 {
+    margin-top: 60px;
+}
+.img2 > .vid{
+    position: relative;
+}
+.vid > img{
     position: relative;
     z-index: 1;
 }
-.img2 > video{
+.vid > video{
     position: absolute;
-    top: 1815px;
-    right: 250px;
-    width: 24%;
-
+    right: 126px;
+    bottom: 220px;
+    width: 62%;
 }
 .content3{
     width: 60%;
@@ -234,9 +237,6 @@ box{
 }
 .content4{
     width: 50%;
-}
-.content4 > h2, .content4 > p{
-    width: 95%;
 }
 .container1,.container2{
     width: 80%;
