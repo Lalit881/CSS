@@ -48,9 +48,6 @@
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-    .logo > img {
-        width: 30%;
-    }
     .mail > button{
         width: 18%;
     }
@@ -161,10 +158,6 @@
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .logo > img {
-        width: 45%;
-        margin-top: 10px;
-    }
     .content{
         margin-top: 0px;
         padding-top: 40px;
@@ -225,7 +218,7 @@
         bottom: 110px;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 438.98px) {
     .vid1 > video {
         right: 36px;
         bottom: 53px;
@@ -246,6 +239,18 @@
     .vid > video {
         right: 51px;
         bottom: 92px;
+    }
+    .logo > img {
+        width: 110px;
+    }
+    .signin > select {
+        padding-left: 0px;
+    }
+    .signin > select, .signin > button {
+        font-size: 14px;
+        margin-top: 5px;
+        padding-left: 4px;
+        padding-right: 0px;
     }
 }
 @media (max-width: 375.98px) {

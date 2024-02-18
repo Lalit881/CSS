@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <span class="image">
+            <img id="image1" src="Image/Mens1.jpg" alt="image">
+        </span>
+        <span>
+            <img id="image2" src="Image/Mens2.jpg" alt="image">
+        </span>
+        <button type="button" onclick="changeImage()">Click</button>
+    </div>
+    <script>
+        function changeImage() {
+            var image1 = document.getElementById("image1");
+            var image2 = document.getElementById("image2");
+
+            if (image1.style.display == "none") {
+                image1.style.display = "inline-block";
+                image2.style.display = "none";
+            } else {
+                image1.style.display = "none";
+                image2.style.display = "inline-block";
+            }
+        }
+    </script>
+</body>
+</html>
